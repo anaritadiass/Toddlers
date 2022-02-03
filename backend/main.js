@@ -4,6 +4,8 @@ const express = require("express")
     
 app.use(express.json())
 
+app.listen(port, () => console.log(`À escuta em http://localhost:${port}`))
+
 app.post("/signup", async (req, res) => {
     console.log(req.body)
     const errors = await validateNewUser(req.body)
@@ -13,13 +15,13 @@ app.post("/signup", async (req, res) => {
         const { passwordConfirmation, ...user } = req.body
         const id = await insertUser(user)
         res.status(201).json({
-            "message": "Utilizador Criado com Sucesso!",
+            "message": "User created successfully!",
             "_id": id
         })
         return
     }
     res.status(400).json({
-        message: "Os dados introduzidos não são válidos.",
+        message: "The inserted data is not valid!",
         errors
     })
 })
@@ -31,12 +33,12 @@ app.post("/login", async (req, res) => {
     if (!user)
         return res
             .status(404)
-            .json({ "message": "O utilizador não foi encontrado!" })
+            .json({ "message": "User not found!" })
 
     if (user.password !== password)
         return res
             .status(401)
-            .json({ "message": "A password introduzida é inválida!" })
+            .json({ "message": "The inserted password is not valid!" })
 
     const token = await insertSession({ email })
     res.status(200).json({ token })
@@ -47,13 +49,13 @@ app.use("/user", async (req, res, next) => {
     if (token === undefined)
         return res
             .status(401)
-            .json({ message: "Não foi enviado o token de autenticação!" })
+            .json({ message: "Não foi enviado o token de autenticação The authentication token was not found!" })
 
     const session = await findSessionByToken(token)
     if (!session)
         return res
             .status(403)
-            .json({ message: "Não existe nenhuma sessão com o token indicado!" })
+            .json({ message: "No session available for the inserted token!" })
 
     const user = await findUserByEmail(session.email)
     delete user.password
@@ -76,63 +78,26 @@ app.get("/user/:id", async (req, res) => {
         })
 })
 
-app.listen(port, () => console.log(`À escuta em http://localhost:${port}`))
+
 
 async function validateNewUser(data) {
     const errors = {}
     if (data.email === undefined || data.email.length === 0) {
-        errors.email = "Por favor introduza o seu endereço de email."
+        errors.email = "Please insert your email!"
     } else if (!validateEmail(data.email)) {
-        errors.email = "Por favor introduza um endereço de email válido."
+        errors.email = "Please introduce a valid email!"
     } else if (Boolean(await findUserByEmail(data.email))) {
-        errors.email = "O endereço introduzido já está registado."
+        errors.email = "The introduced email already in use!"
     }
 
     if (data.password === undefined) {
-        errors.password = "Por favor introduza a sua password."
+        errors.password = "Please insert your password!"
     } else {
         const passwordStrength = checkPasswordStrength(data.password)
         if (data.password.length === 0) {
-            errors.password = "Por favor introduza a sua password."
+            errors.password = "Please insert your password!"
         } else if (passwordStrength === 0) {
-            errors.password = "A sua password deve ter no mínimo 8 caracteres."
+            errors.password = "Your password must be at least 8 characters"
         } else if (passwordStrength < 4) {
-            errors.password = "A sua password deve ter pelo menos um número, uma mínuscula, uma maiúscula e um símbolo."
-        }
-    }
-
-    if (data.passwordConfirmation === undefined || data.passwordConfirmation.length === 0) {
-        errors.passwordConfirmation = "Por favor introduza novamente a sua password."
-    } else if (data.password !== data.passwordConfirmation) {
-        errors.passwordConfirmation = "As passwords não coincidem."
-    }
-
-    if (!data.acceptsTerms) {
-        errors.acceptsTerms = "Tem de aceitar os termos e condições para criar a sua conta."
-    }
-
-    return errors
-}
-
-
-function validateEmail(email) {
-    // Esta expressão regular não garante que email existe, nem que é válido
-    // No entanto deverá funcionar para a maior parte dos emails que seja necessário validar.
-    const EMAIL_REGEX = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-    return EMAIL_REGEX.test(email)
-}
-
-function checkPasswordStrength(password) {
-    if (password.length < 8) return 0;
-    const regexes = [
-        /[a-z]/,
-        /[A-Z]/,
-        /[0-9]/,
-        /[~!@#$%^&*)(+=._-]/
-    ]
-    return regexes
-        .map(re => re.test(password))
-        .reduce((score, t) => t ? score + 1 : score, 0)
-}
-
-    app.listen(port, () => console.log(`À escuta em http://localhost:${port}`))
+            errors.password = "Your password must have at least 1 upper case, lower case, numeric, and special character!."
+        }}}

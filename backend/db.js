@@ -1,7 +1,7 @@
 const { MongoClient, ObjectId } = require('mongodb')
 const URL = process.env.MONGO_URL ?? "mongodb://localhost:27017"
-const DATABASE_NAME = "desafio8"
-const USER_COLLECTION = "users"
+const DATABASE_NAME = "Toodlers"
+const USER_COLLECTION = "Users"
 const SESSION_COLLECTION = "sessions"
 
 
