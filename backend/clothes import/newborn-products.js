@@ -8,11 +8,11 @@ const products = [
       size: "0-2 months",
     },
     {
-      name: "NVIDIA GeForce RTX 3080",
+      name: "New-born cardigan",
       imgUrl:
-            "https://www.tejar.pk/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/n/v/nvidia_geforce_rtx_3080_founders_edition_-_5tejar_1.jpg",
+            "https://www.bing.com/images/search?view=detailV2&ccid=Vn%2bLRdx6&id=31A6CFE03CF938B00D2F351B318F22BE85A55970&thid=OIF.bQYdOylM2SjHdUnmex9VUQ&mediaurl=https%3a%2f%2fi.ebayimg.com%2fimages%2fg%2fEhcAAOSwGTRg2f83%2fs-l1600.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.567f8b45dc7ac8fa5a44e1f8fcf097be%3frik%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1600&q=new-born+clothes&simid=7017339502854&FORM=IRPRST&ck=6D061D3B294CD928C77549E67B1F5551&selectedIndex=186&ajaxhist=0&ajaxserp=0",
       description:
-          "The GeForce RTX 3080 is an enthusiast-class graphics card by NVIDIA, launched on September 1st, 2020. Built on the 8 nm process, and based on the GA102 graphics processor, in its GA102-200-KD-A1 variant, the card supports DirectX 12 Ultimate. This ensures that all modern games will run on GeForce RTX 3080.",
+            "",
       price: 1200,
       countInStock: 5,
     },
