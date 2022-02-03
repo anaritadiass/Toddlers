@@ -23,7 +23,6 @@ function App() {
           <Route path="/newborn" element={NewBorn} />
           <Route path="/baby" element={Baby} />
           <Route path="/child" element={Child} />
-          
         </Routes>
 
       </BrowserRouter>
