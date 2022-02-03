@@ -1,26 +1,44 @@
 import "./NewBorn.css";
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
-/**
- * @Description : Formato dos produtos na LandingPage   
- * 
- * 
- */ 
-const NewBorn = ({ imgUrl, description, price, name, productId }) => {
+// Components
+import Product from "../components/Interface/Product";
+
+// //Actions
+// import { getProducts as listProducts } from "./components/redux/productActions";
+
+const NewBorn = () => {
+  const dispatch = useDispatch();
+
+  const getProducts = useSelector((state) => state.getProducts);
+  const { products, loading, error } = getProducts;
+  
+  // Para mostrar os produtos
+  useEffect(() => {
+    dispatch(listProducts());
+  }, [dispatch]);
+
   return (
-    <div className="product">
-      <img src={imgUrl} alt={name} />
-
-      <div className="product__info">
-        <p className="info__name">{name}</p>
-
-        <p className="info__description">{description.substring(0, 100)}...</p>
-
-        <p className="info__price">${price}</p>
-
-        <Link to={`/product/${productId}`} className="info__button">
-          View
-        </Link>
+    <div className="homescreen">
+      <h2 className="homescreen__title">Latest Products</h2>
+      <div className="homescreen__products">
+        {loading ? (
+          <h2>Loading...</h2>
+        ) : error ? (
+          <h2>{error}</h2>
+        ) : (
+          products.map((product) => (
+            <Product
+              key={product._id}
+              name={product.name}
+              description={product.description}
+              price={product.price}
+              imgUrl={product.imgUrl}
+              productId={product._id}
+            />
+          ))
+        )}
       </div>
     </div>
   );
