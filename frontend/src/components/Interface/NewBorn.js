@@ -15,10 +15,10 @@ const NewBorn = () => {
   const { products, loading, error } = getProducts;
   
   // Para mostrar os produtos
-  useEffect(() => {
+  /*useEffect(() => {
     dispatch(listProducts());
   }, [dispatch]);
-
+*/
   return (
     <div className="homescreen">
       <h2 className="homescreen__title">Latest Products</h2>
