@@ -1,4 +1,4 @@
-import "./LandingPage.css"
+import "./LandingPage.css";
 import { useState } from "react"
 import { useNavigate } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom"
@@ -9,7 +9,9 @@ export default function LandingPage() {
      
     return (
         <div>
+           
         <h1>TODLERS</h1>
+    
         </div>
     
 
