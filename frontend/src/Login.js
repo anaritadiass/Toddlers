@@ -67,10 +67,9 @@ export const Login = ({onSubmit,Errors}) =>{
          <p className="title">Login</p>
     
          <form onSubmit={handleSubmit}> 
-
          <div className="Email">
          <label className="SEmail">Email</label>
-        <input //AQUI TEM DE SER NAMEINPUT
+            <input //AQUI TEM DE SER NAMEINPUT
         className="emailInput"
             label= "Please enter your email"
             name="email"
@@ -94,7 +93,6 @@ export const Login = ({onSubmit,Errors}) =>{
        
            <button className="button-19" type="submit">Submit</button>
         </form>
-    
       </div>
 
       <div>
