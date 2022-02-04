@@ -18,10 +18,9 @@ function App() {
   return (
     <div className="App">
     <BrowserRouter>
-     <Login/>
-   <LandingPage />     
+        
         <Routes>
-          <Route path='/api/signup' element={<SignUp/>} />
+          
           <Route path='/api/login' element={<Login />} />
           <Route path="/" element={ <LandingPage/>} />
           <Route path="/Products/NewBorn" element={ <NewBorn/> } />

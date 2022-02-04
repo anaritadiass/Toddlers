@@ -4,8 +4,10 @@
 import './assets/css/bootstrap.css';
 import './assets/css/responsive.css';
 //import './assets/css/ui.modules.css';
+import { useNavigate } from 'react-router-dom';
 
 export function NewBorn() {
+    let navigate= useNavigate()
   return (
     <div className="App">
      <header class="section-header">
@@ -41,7 +43,7 @@ export function NewBorn() {
                             <span class="text-muted">Welcome!</span>
                             <div> 
                                 <a href="#">Sign in</a> |  
-                                <a href="#"> Register</a>
+                                <a href="#" onClick={() => navigate(`/SignUp`)}> Register</a>
                             </div>
                         </div>
                     </div>
