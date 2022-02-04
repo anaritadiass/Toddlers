@@ -116,41 +116,7 @@ function Child() {
                     <div class="card-body">
                         <label class="custom-control custom-checkbox">
                           <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">0 months  
-                              <b class="badge badge-pill badge-light float-right">120</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">1 month 
-                              <b class="badge badge-pill badge-light float-right">15</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">3 months
-                              <b class="badge badge-pill badge-light float-right">35</b> </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">6 months
-                              <b class="badge badge-pill badge-light float-right">89</b> </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">9 months 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">1 year
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">2 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
+                          
                           <div class="custom-control-label">3 years
                               <b class="badge badge-pill badge-light float-right">30</b>  </div>
                         </label>
@@ -223,11 +189,15 @@ function Child() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
                         <span class="badge badge-danger"> NEW </span>
+                        
+                        <img src="images/items/1" alt="Green dress for child" />
                         <img src="assets/images/items/1.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
                     </div> 
                     <figcaption class="info-wrap">
-                        <div class="fix-height">
+                        <div class="fix-height"> 
+                         <img src="./images/items/2.jpg" />
+                          
                             <a href="#" class="title">Green Floral Dress</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>
