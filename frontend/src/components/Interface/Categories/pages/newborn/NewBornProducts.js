@@ -1,7 +1,11 @@
 //import logo from './public/toddlersLogo.svg';
-import '../LandingPage.css';
+//import './assets/ui.module.css';
+//import './assets/css/all.min.css';
+import './assets/css/bootstrap.css';
+import './assets/css/responsive.css';
+//import './assets/css/ui.modules.css';
 
-export function Catalogue() {
+export function NewBorn() {
   return (
     <div className="App">
      <header class="section-header">
@@ -372,4 +376,5 @@ export function Catalogue() {
   );
 }
 
-export default function NewBorn(){};
+
+export default NewBorn;

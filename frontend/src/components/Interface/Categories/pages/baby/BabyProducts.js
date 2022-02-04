@@ -1,7 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './assets/css/all.min.css';
+import './assets/css/bootstrap.css';
+import './assets/css/responsive.css';
+//import './assets/css/ui.modules.css';
 
-function App() {
+function Baby() {
   return (
     <div className="App">
      <header class="section-header">
@@ -224,7 +227,7 @@ function App() {
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Green Floral Dress</a>
+                            <a href="#" class="title">Knitted Pink Dress</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>
                     </figcaption>
@@ -240,7 +243,7 @@ function App() {
                     </div>
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Red dress with students</a>
+                            <a href="#" class="title">Disney Beauty and the Beast Dress</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -256,7 +259,7 @@ function App() {
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow white and pink</a>
+                            <a href="#" class="title">Multi-colored dress with drawings</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -272,7 +275,7 @@ function App() {
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow white with cool car</a>
+                            <a href="#" class="title">Sweatshirt green with a car</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -287,7 +290,7 @@ function App() {
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow grey with bee</a>
+                            <a href="#" class="title">Sweatshirt Hello Kitty pink and blue</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -302,7 +305,7 @@ function App() {
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow Batman black, grey, and yellow</a>
+                            <a href="#" class="title">Sweatshirt pink with cat</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -317,7 +320,7 @@ function App() {
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow grey with fluffy bear</a>
+                            <a href="#" class="title">Unisex baby fleece hat</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -331,7 +334,7 @@ function App() {
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow grey with snowman</a>
+                            <a href="#" class="title">Sweatshirt baby with airplanes</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -373,4 +376,4 @@ function App() {
   );
 }
 
-export default App;
+export default Baby;
