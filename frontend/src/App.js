@@ -16,8 +16,6 @@ import { useState } from 'react'
 import SignUp from './components/Interface/SignUp'
 
 
-
-
 function App() {
   return (
     <div className="App">
