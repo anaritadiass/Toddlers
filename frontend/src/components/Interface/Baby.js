@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
  * 
  * 
  */ 
-const Baby = ({ imgUrl, description, price, name, productId }) => {
+const Baby_Products = ({ imgUrl, description, price, name, productId }) => {
   return (
     <div className="product">
       <img src={imgUrl} alt={name} />
@@ -26,4 +26,4 @@ const Baby = ({ imgUrl, description, price, name, productId }) => {
   );
 };
 
-export default Baby;
+export default Baby_Products;

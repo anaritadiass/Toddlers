@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+//import './assets/css/ui.modules.css';
+import './assets/css';
 
-function App() {
+function Child() {
   return (
     <div className="App">
      <header class="section-header">
@@ -373,4 +374,5 @@ function App() {
   );
 }
 
-export default App;
+
+export default Child;

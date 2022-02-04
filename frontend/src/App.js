@@ -4,10 +4,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './components/Interface/LandingPage'
 import LandingPage from './components/Interface/LandingPage'
-import Baby from './components/Interface/Baby'
-import NewBorn from './components/Interface/Categories pages newborn/NewBorn'
-import Child from './components/Interface/Child'
+import Baby from './components/Interface/Categories pages baby/BabyProducts'
+import Child from './components/Interface/Categories pages child/ChildProducts'
+import  NewBorn from './components/Interface/Categories pages newborn/NewBornProducts'
 import { useState } from 'react'
+
 
 
 function App() {
@@ -19,9 +20,9 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path="/" element={ LandingPage} />
-          <Route path="/newborn" element={NewBorn} />
-          <Route path="/baby" element={Baby} />
-          <Route path="/child" element={Child} />
+          <Route path="/Products/NewBorn" element={ NewBorn } />
+          <Route path="/Products/Baby" element={Baby} />
+          <Route path="/Products/Child" element={Child} />
         </Routes>
       </BrowserRouter>
       

@@ -1,4 +1,5 @@
-import "./Child.css";
+//import "./Child.css";
+import './assets/css';
 import { Link } from "react-router-dom";
 
 /**
