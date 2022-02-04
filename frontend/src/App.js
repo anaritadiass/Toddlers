@@ -28,6 +28,9 @@ function App() {
           <Route path="/Products/NewBorn" element={ <NewBorn/> } />
           <Route path="/Products/Baby" element={ <Baby /> } />
           <Route path="/Products/Child" element={ <Child /> } />
+          <Route path="/Login" element={ <Login /> } />
+          <Route path="/SignUp" element={ <SignUp /> } />
+
         </Routes>
       </BrowserRouter>
       

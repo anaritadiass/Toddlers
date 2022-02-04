@@ -20,14 +20,17 @@ export default function LandingPage() {
           <button className="button-19" onClick={() => navigate(`/Products/Child`)}>Child</button>
         </div>
         <div className="login">
-          <h3 >Login</h3>
+          <h3 onClick={() => navigate(`/Login`)}>Login</h3>
+        </div>
+        <div className="login">
+          <h3 onClick={() => navigate(`/SignUp`)}>SignUp</h3>
         </div>
       </div>
 
       <div>
         <div className="footer">
           <div className="fim">
-            <div className="footerlogo"></div><h2 class="legal">Legal</h2>
+            <div className="footerlogo"></div><h2 className="legal">Legal</h2>
             <ul>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Terms of Use</a></li>

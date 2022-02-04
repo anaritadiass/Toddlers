@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 //import { NameInput } from "../SingUp/NameInput";
 import './Login.css'
 
@@ -6,6 +7,7 @@ import './Login.css'
 
 export const Login = ({onSubmit,Errors}) =>{
     // Funcao para Receber dados da DataBase em Tempo Real
+    let navigate= useNavigate()
     const [campos, setCampos] = useState(
         {email : "",
         password :""
@@ -92,7 +94,7 @@ export const Login = ({onSubmit,Errors}) =>{
         <p className="forgotPass"><a href="Forgot my password">Forgot my password</a></p>
        </div>
             <div className="btn">
-           <button className="button-19" type="submit">Submit</button>
+           <button className="button-19" type="submit" onClick={() => navigate(`/Products/Baby`)}>Submit</button>
            </div>
         </form>
       </div>
