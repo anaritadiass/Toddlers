@@ -1,5 +1,8 @@
 //import logo from './logo.svg';
-import './assets/css/ui.modules.css';
+//import './assets/css/all.min.css';
+import './assets/css/bootstrap.css';
+import './assets/css/responsive.css';
+//import './assets/css/ui.modules.css';
 
 function Baby() {
   return (

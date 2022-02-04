@@ -1,16 +1,21 @@
-//import logo from './public/toddlersLogo.svg';
-//import './assets/ui.module.css';
-import './assets/css'
-export function NewBorn() {
+// import logo from './logo.svg';
+//import './assets/css/ui.modules.css';
+//import './assets/css/all.min.css';
+import './assets/css/bootstrap.css';
+import './assets/css/responsive.css';
+//import './assets/css/ui.modules.css';
+
+function Child() {
   return (
     <div className="App">
      <header class="section-header">
+
         <section class="header-main border-bottom">
             <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-2 col-4">
                 <a href="#" class="brand-wrap">
-                <img width="140px" src="/toddlersLogo.svg" />
+                  Company Name
                 </a> 
             </div>
             <div class="col-lg-6 col-sm-12">
@@ -223,7 +228,7 @@ export function NewBorn() {
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow white and blue</a>
+                            <a href="#" class="title">Green Floral Dress</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>
                     </figcaption>
@@ -239,7 +244,7 @@ export function NewBorn() {
                     </div>
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow white stripes and blue</a>
+                            <a href="#" class="title">Red dress with students</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -373,4 +378,4 @@ export function NewBorn() {
 }
 
 
-export default NewBornExport;
+export default Child;

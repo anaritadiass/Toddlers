@@ -1,8 +1,8 @@
-// import "./LandingPage.css";
-// import { useState } from "react"
+import "./LandingPage.css";
+ import { useState } from "react"
 import { useNavigate } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom"
-// import { useRef } from 'react';
+import { useRef } from 'react';
 
 
 export default function LandingPage() {

@@ -75,7 +75,7 @@ export const Login = ({onSubmit,Errors}) =>{
             name="email"
             campo={campos}
             errors = {errors}
-            setCampo={setCampos}
+            onChange={setCampos}
         />
         </div>
         <div className="Pass">
@@ -87,7 +87,7 @@ export const Login = ({onSubmit,Errors}) =>{
             name="password"
             campo={campos}
             errors = {errors}
-            setCampo={setCampos}
+            onChange={e => e.target.value = setCampos}
         />
         <p className="forgotPass"><a href="Forgot my password">Forgot my password</a></p>
        </div>
