@@ -1,14 +1,14 @@
-import "./HomeScreen.css";
+import "./NewBorn.css";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 // Components
-import Product from "../components/Product";
+import Product from "../components/Interface/Product";
 
-//Actions
-import { getProducts as listProducts } from "../redux/actions/productActions";
+// //Actions
+// import { getProducts as listProducts } from "./components/redux/productActions";
 
-const HomeScreen = () => {
+const NewBorn = () => {
   const dispatch = useDispatch();
 
   const getProducts = useSelector((state) => state.getProducts);
@@ -44,4 +44,4 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+export default NewBorn;
