@@ -31,7 +31,8 @@ function Child() {
                 <div className="widgets-wrap float-md-right">
                     <div className="widget-header  mr-3">
                         <a href="#" className="icon icon-sm rounded-circle border"><i className="fa fa-shopping-cart"></i></a>
-                        <span className="badge badge-pill badge-danger notify">0</span>
+                        <i className="fa fa-shopping-cart" onClick={() => navigate(`/Checkout`)}></i>
+                        <span className="badge badge-pill badge-danger notify"></span>
                     </div>
                     <div className="widget-header icontext">
                         <a href="#" className="icon icon-sm rounded-circle border"><i className="fa fa-user"></i></a>
@@ -175,7 +176,7 @@ function Child() {
             <main className="col-md-9">
 
 
-        <div className="row">
+            <div className="row">
             <div className="col-md-4">
                 <figure className="card card-product-grid">
                     <div className="img-wrap"> 
@@ -185,8 +186,7 @@ function Child() {
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-
-                            <a href="#" className="title">Green Floral Dress</a>
+                            <a href="#" className="title">Babygrow stripes</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>
                     </figcaption>
@@ -202,7 +202,7 @@ function Child() {
                     </div>
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Red dress with students</a>
+                            <a href="#" className="title">Babygrow blue</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -213,12 +213,12 @@ function Child() {
                 <figure className="card card-product-grid">
                     <div className="img-wrap">
                         <span className="badge badge-danger"> NEW </span>  
-                        <img src="assets/images/items/3.jpg" />
                         <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/3.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Babygrow white and pink</a>
+                            <a href="#" className="title">Babygrow pink</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -229,12 +229,12 @@ function Child() {
                 <figure className="card card-product-grid">
                     <div className="img-wrap">
                         <span className="badge badge-danger"> NEW </span>   
-                        <img src="assets/images/items/4.jpg" />
                         <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/4.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Babygrow white with cool car</a>
+                            <a href="#" className="title">Babygrow car</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -244,12 +244,12 @@ function Child() {
             <div className="col-md-4">
                 <figure className="card card-product-grid">
                     <div className="img-wrap"> 
-                        <img src="assets/images/items/5.jpg" />
                         <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/5.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Babygrow grey with bee</a>
+                            <a href="#" className="title">Babygrow w/ bee</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -259,12 +259,12 @@ function Child() {
             <div className="col-md-4">
                 <figure className="card card-product-grid">
                     <div className="img-wrap"> 
-                        <img src="assets/images/items/6.jpg" />
                         <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/6.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Babygrow Batman black, grey, and yellow</a>
+                            <a href="#" className="title">Babygrow Batman</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -274,12 +274,12 @@ function Child() {
             <div className="col-md-4">
                 <figure className="card card-product-grid">
                     <div className="img-wrap"> 
-                        <img src="assets/images/items/7.jpg" />
                         <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/7.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Babygrow grey with fluffy bear</a>
+                            <a href="#" className="title">Babygrow bear</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -288,18 +288,18 @@ function Child() {
             <div className="col-md-4">
                 <figure className="card card-product-grid">
                     <div className="img-wrap"> 
-                        <img src="assets/images/items/1.jpg" />
                         <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/9.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Babygrow grey with snowman</a>
+                            <a href="#" className="title">Babygrow w/ snowman</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
                 </figure>
             </div> 
-        </div> 
+        </div>  
 
 
         <nav className="mt-4" aria-label="Page navigation sample">

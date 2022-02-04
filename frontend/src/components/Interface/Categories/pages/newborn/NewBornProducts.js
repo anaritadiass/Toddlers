@@ -34,7 +34,8 @@ export function NewBorn() {
                 <div className="widgets-wrap float-md-right">
                     <div className="widget-header  mr-3">
                         <a href="#" className="icon icon-sm rounded-circle border"><i className="fa fa-shopping-cart"></i></a>
-                        <span className="badge badge-pill badge-danger notify">0</span>
+                        <i className="fa fa-shopping-cart" onClick={() => navigate(`/Checkout`)}></i>
+                        <span className="badge badge-pill badge-danger notify"></span>
                     </div>
                     <div className="widget-header icontext">
                         <a href="#" className="icon icon-sm rounded-circle border"><i className="fa fa-user"></i></a>

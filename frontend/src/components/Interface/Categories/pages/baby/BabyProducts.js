@@ -32,8 +32,9 @@ function Baby() {
             <div className="col-lg-4 col-sm-6 col-12">
                 <div className="widgets-wrap float-md-right">
                     <div className="widget-header  mr-3">
-                        <a href="#" className="icon icon-sm rounded-circle border"><i className="fa fa-shopping-cart"></i></a>
-                        <span className="badge badge-pill badge-danger notify">0</span>
+                        <a href="#" className="icon icon-sm rounded-circle border">
+                        <i className="fa fa-shopping-cart" onClick={() => navigate(`/Checkout`)}></i></a>
+                        <span className="badge badge-pill badge-danger notify"></span>
                     </div>
                     <div className="widget-header icontext">
                         <a href="#" className="icon icon-sm rounded-circle border"><i className="fa fa-user"></i></a>
@@ -137,7 +138,7 @@ function Baby() {
             <main className="col-md-9">
 
 
-        <div className="row">
+            <div className="row">
             <div className="col-md-4">
                 <figure className="card card-product-grid">
                     <div className="img-wrap"> 
@@ -147,7 +148,7 @@ function Baby() {
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">BabyGrow black and white</a>
+                            <a href="#" className="title">Babygrow stripes</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>
                     </figcaption>
@@ -163,7 +164,7 @@ function Baby() {
                     </div>
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Disney Beauty and the Beast Dress</a>
+                            <a href="#" className="title">Babygrow blue</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -179,7 +180,7 @@ function Baby() {
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Multi-colored dress with drawings</a>
+                            <a href="#" className="title">Babygrow pink</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -195,7 +196,7 @@ function Baby() {
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Sweatshirt green with a car</a>
+                            <a href="#" className="title">Babygrow car</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -210,7 +211,7 @@ function Baby() {
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Sweatshirt Hello Kitty pink and blue</a>
+                            <a href="#" className="title">Babygrow w/ bee</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -225,7 +226,7 @@ function Baby() {
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Sweatshirt pink with cat</a>
+                            <a href="#" className="title">Babygrow Batman</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -240,7 +241,7 @@ function Baby() {
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Unisex baby fleece hat</a>
+                            <a href="#" className="title">Babygrow bear</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -254,13 +255,13 @@ function Baby() {
                     </div> 
                     <figcaption className="info-wrap">
                         <div className="fix-height">
-                            <a href="#" className="title">Sweatshirt baby with airplanes</a>
+                            <a href="#" className="title">Babygrow w/ snowman</a>
                         </div>
                         <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
                 </figure>
             </div> 
-        </div> 
+        </div>  
 
 
         <nav className="mt-4" aria-label="Page navigation sample">
