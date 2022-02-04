@@ -225,7 +225,7 @@ function Child() {
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow white and blue</a>
+                            <a href="#" class="title">Green Floral Dress</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>
                     </figcaption>
@@ -241,7 +241,7 @@ function Child() {
                     </div>
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow white stripes and blue</a>
+                            <a href="#" class="title">Red dress with students</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
