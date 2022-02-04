@@ -26,6 +26,7 @@ const SingupScreen = () => {
                             label="Please introduce you name"
                             name="name"
                         />
+                        </div>
                         <div className="Email">
                             <label className="SEmail">Email</label>
                             <input //AQUI TEM DE SER NAMEINPUT  ???
@@ -50,7 +51,8 @@ const SingupScreen = () => {
                                 className="passInput"
                                 label="Please renter your password"
                                 name="password"
-                            />
+                            />   
+                            </div>
                             <div className="Code">
                                 <label className="SCode">Toodlers Code</label>
                                 <input //AQUI TEM DE SER NAMEINPUT ???
@@ -59,6 +61,7 @@ const SingupScreen = () => {
                                     label="Please enter your Toodlers Code"
                                     name="code"
                                 />
+                                </div>
                                 <div className="address">
                                     <label className="SAddress">Toodlers Code</label>
                                     <input //AQUI TEM DE SER NAMEINPUT ???
