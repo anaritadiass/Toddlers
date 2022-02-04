@@ -81,7 +81,7 @@ const SingupScreen = () => {
                 <div className="footer">
                     <div className="fim">
                         <div className="footerlogo"></div>
-                        <h2 class="legal">Legal</h2>
+                        <h2 className="legal">Legal</h2>
                         <ul>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms of Use</a></li>
