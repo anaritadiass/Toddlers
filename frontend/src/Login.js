@@ -59,8 +59,14 @@ export const Login = ({onSubmit,Errors}) =>{
     return(
         <div className="total">
         <div className="navbar">
+<<<<<<< HEAD
+        <img onClick={() => navigate(`/`)} className="img"/>
+        <img  src="/toddlersLogo.svg"  width="300px"  alt="Toddlers logo"/>
+      
+=======
         <img onClick={() => navigate(`/`)} className="img" />
         <img  src="/toddlersLogo.svg"  width="300px"  alt="Toddlers logo"/>
+>>>>>>> 87ce1181711ad01c8295d5df490ca61512aadfb1
         </div> 
 
         <div className="centro">

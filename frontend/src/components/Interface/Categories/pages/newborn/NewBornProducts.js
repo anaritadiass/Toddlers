@@ -4,43 +4,42 @@
 import './assetsNewBorn/css/bootstrap.css';
 import './assetsNewBorn/css/responsive.css';
 //import './assets/css/ui.modules.css';
+//import './Interface/'
 import { useNavigate } from 'react-router-dom';
 
 export function NewBorn() {
     let navigate= useNavigate()
   return (
     <div className="App">
-     <header class="section-header">
-        <section class="header-main border-bottom">
-            <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-2 col-4">
-                <a href="#" class="brand-wrap">
-                <img width="140px" src="/toddlersLogo.svg" />
-                </a> 
-            </div>
-            <div class="col-lg-6 col-sm-12">
-                <form action="#" class="search">
-                    <div class="input-group w-100">
-                        <input type="text" class="form-control" placeholder="Search" />
-                        <div class="input-group-append">
-                          <button class="btn btn-primary" type="submit">
-                            <i class="fa fa-search"></i>
+     <header className="section-header">
+        <section className="header-main border-bottom">
+            <div className="container">
+        <div className="row align-items-center">
+           
+                <img width="140px" src="/toddLaranja.svg" />
+           
+            <div className="col-lg-6 col-sm-12">
+                <form action="#" className="search">
+                    <div className="input-group w-100">
+                        <input type="text" className="form-control" placeholder="Search" />
+                        <div className="input-group-append">
+                          <button className="btn btn-primary" type="submit">
+                            <i className="fa fa-search"></i>
                           </button>
                         </div>
                     </div>
                 </form> 
             </div> 
-            <div class="col-lg-4 col-sm-6 col-12">
-                <div class="widgets-wrap float-md-right">
-                    <div class="widget-header  mr-3">
-                        <a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-shopping-cart"></i></a>
-                        <span class="badge badge-pill badge-danger notify">0</span>
+            <div className="col-lg-4 col-sm-6 col-12">
+                <div className="widgets-wrap float-md-right">
+                    <div className="widget-header  mr-3">
+                        <a href="#" className="icon icon-sm rounded-circle border"><i className="fa fa-shopping-cart"></i></a>
+                        <span className="badge badge-pill badge-danger notify">0</span>
                     </div>
-                    <div class="widget-header icontext">
-                        <a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-user"></i></a>
-                        <div class="text">
-                            <span class="text-muted">Welcome!</span>
+                    <div className="widget-header icontext">
+                        <a href="#" className="icon icon-sm rounded-circle border"><i className="fa fa-user"></i></a>
+                        <div className="text">
+                            <span className="text-muted">Welcome, Leonardo!</span>
                             <div> 
                                 <a href="#">Sign in</a> |  
                                 <a href="#" onClick={() => navigate(`/SignUp`)}> Register</a>
@@ -58,44 +57,44 @@ export function NewBorn() {
 
 
        
-        <section class="section-pagetop bg">
-        <div class="container">
-            <h2 class="title-page">Category products</h2>
+        <section className="section-pagetop bg">
+        <div className="container">
+            <h2 className="title-page">Category products</h2>
             <nav>
-            <ol class="breadcrumb text-white">
-                <li class="breadcrumb-item"><a href="#">Landing Page</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Recently added</li>
+            <ol className="breadcrumb text-white">
+                <li className="breadcrumb-item"><a href="#" onClick={() => navigate(`/`)}>Landing Page</a></li>
+                <li className="breadcrumb-item active" aria-current="page">New Born</li>
             </ol>  
             </nav>
         </div> 
         </section>
       
-        <section class="section-content padding-y">
-        <div class="container">
+        <section className="section-content padding-y">
+        <div className="container">
 
-        <div class="row">
-            <aside class="col-md-3">
+        <div className="row">
+            <aside className="col-md-3">
                 
-        <div class="card">
-            <article class="filter-group">
-                <header class="card-header">
-                    <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
-                        <i class="icon-control fa fa-chevron-down"></i>
-                        <h6 class="title">Product type</h6>
+        <div className="card">
+            <article className="filter-group">
+                <header className="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" className="">
+                        <i className="icon-control fa fa-chevron-down"></i>
+                        <h6 className="title">Product type</h6>
                     </a>
                 </header>
-                <div class="filter-content collapse show" id="collapse_1">
-                    <div class="card-body">
-                        <form class="pb-3">
-                        <div class="input-group">
-                          <input type="text" class="form-control" placeholder="Search" />
-                          <div class="input-group-append">
-                            <button class="btn btn-light" type="button"><i class="fa fa-search"></i></button>
+                <div className="filter-content collapse show" id="collapse_1">
+                    <div className="card-body">
+                        <form className="pb-3">
+                        <div className="input-group">
+                          <input type="text" className="form-control" placeholder="Search" />
+                          <div className="input-group-append">
+                            <button className="btn btn-light" type="button"><i className="fa fa-search"></i></button>
                           </div>
                         </div>
                         </form>
                         
-                        <ul class="list-menu">
+                        <ul className="list-menu">
                           <li><a href="#">Tshirts  </a></li>
                           <li><a href="#">Skirts </a></li>
                           <li><a href="#">Shoes  </a></li>
@@ -106,44 +105,44 @@ export function NewBorn() {
                     </div> 
                 </div>
             </article>
-            <article class="filter-group">
-                <header class="card-header">
-                    <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
-                        <i class="icon-control fa fa-chevron-down"></i>
-                        <h6 class="title">Age </h6>
+            <article className="filter-group">
+                <header className="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" className="">
+                        <i className="icon-control fa fa-chevron-down"></i>
+                        <h6 className="title">Age </h6>
                     </a>
                 </header>
-                <div class="filter-content collapse show" id="collapse_2">
-                    <div class="card-body">
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">0 months  
-                              <b class="badge badge-pill badge-light float-right">120</b>  </div>
+                <div className="filter-content collapse show" id="collapse_2">
+                    <div className="card-body">
+                        <label className="custom-control custom-checkbox">
+                          <input type="checkbox" className="custom-control-input" />
+                          <div className="custom-control-label">0 months  
+                              <b className="badge badge-pill badge-light float-right">120</b>  </div>
                         </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">1 month 
-                              <b class="badge badge-pill badge-light float-right">15</b>  </div>
+                        <label className="custom-control custom-checkbox">
+                          <input type="checkbox" className="custom-control-input" />
+                          <div className="custom-control-label">1 month 
+                              <b className="badge badge-pill badge-light float-right">15</b>  </div>
                         </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">3 months
-                              <b class="badge badge-pill badge-light float-right">35</b> </div>
+                        <label className="custom-control custom-checkbox">
+                          <input type="checkbox" className="custom-control-input" />
+                          <div className="custom-control-label">3 months
+                              <b className="badge badge-pill badge-light float-right">2</b> </div>
                         </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">6 months
-                              <b class="badge badge-pill badge-light float-right">89</b> </div>
+                        <label className="custom-control custom-checkbox">
+                          <input type="checkbox" className="custom-control-input" />
+                          <div className="custom-control-label">6 months
+                              <b className="badge badge-pill badge-light float-right">2</b> </div>
                         </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">9 months 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
+                        <label className="custom-control custom-checkbox">
+                          <input type="checkbox" className="custom-control-input" />
+                          <div className="custom-control-label">9 months 
+                              <b className="badge badge-pill badge-light float-right">1</b>  </div>
                         </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">1 year
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
+                        <label className="custom-control custom-checkbox">
+                          <input type="checkbox" className="custom-control-input" />
+                          <div className="custom-control-label">1 year
+                              <b className="badge badge-pill badge-light float-right">30</b>  </div>
                         </label>
             </div> 
                 </div>
@@ -151,142 +150,142 @@ export function NewBorn() {
         </div> 
 
             </aside> 
-            <main class="col-md-9">
+            <main className="col-md-9">
 
 
-        <div class="row">
-            <div class="col-md-4">
-                <figure class="card card-product-grid">
-                    <div class="img-wrap"> 
-                        <span class="badge badge-danger"> NEW </span>
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+        <div className="row">
+            <div className="col-md-4">
+                <figure className="card card-product-grid">
+                    <div className="img-wrap"> 
+                        <span className="badge badge-danger"> NEW </span>
+                        <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
                         <img src="/assets/images/items/1.jpg" width="220" height="200"/>
                     </div> 
-                    <figcaption class="info-wrap">
-                        <div class="fix-height">
-                            <a href="#" class="title">Babygrow stripes</a>
+                    <figcaption className="info-wrap">
+                        <div className="fix-height">
+                            <a href="#" className="title">Babygrow stripes</a>
                         </div>
-                        <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                        <a href="#" className="btn btn-block btn-primary">Add to cart </a>
                     </figcaption>
                 </figure>
             </div> 
 
-            <div class="col-md-4">
-                <figure class="card card-product-grid">
-                    <div class="img-wrap">
-                        <span class="badge badge-danger"> NEW </span> 
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+            <div className="col-md-4">
+                <figure className="card card-product-grid">
+                    <div className="img-wrap">
+                        <span className="badge badge-danger"> NEW </span> 
+                        <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
                         <img src="/assets/images/items/2.jpg" width="220" height="200"/>
                     </div>
-                    <figcaption class="info-wrap">
-                        <div class="fix-height">
-                            <a href="#" class="title">Babygrow blue</a>
+                    <figcaption className="info-wrap">
+                        <div className="fix-height">
+                            <a href="#" className="title">Babygrow blue</a>
                         </div>
-                        <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+                        <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
                 </figure>
             </div> 
 
-            <div class="col-md-4">
-                <figure class="card card-product-grid">
-                    <div class="img-wrap">
-                        <span class="badge badge-danger"> NEW </span>  
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+            <div className="col-md-4">
+                <figure className="card card-product-grid">
+                    <div className="img-wrap">
+                        <span className="badge badge-danger"> NEW </span>  
+                        <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
                         <img src="/assets/images/items/3.jpg" width="220" height="200"/>
                     </div> 
-                    <figcaption class="info-wrap">
-                        <div class="fix-height">
-                            <a href="#" class="title">Babygrow pink</a>
+                    <figcaption className="info-wrap">
+                        <div className="fix-height">
+                            <a href="#" className="title">Babygrow pink</a>
                         </div>
-                        <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+                        <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
                 </figure>
             </div> 
 
-            <div class="col-md-4">
-                <figure class="card card-product-grid">
-                    <div class="img-wrap">
-                        <span class="badge badge-danger"> NEW </span>   
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+            <div className="col-md-4">
+                <figure className="card card-product-grid">
+                    <div className="img-wrap">
+                        <span className="badge badge-danger"> NEW </span>   
+                        <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
                         <img src="/assets/images/items/4.jpg" width="220" height="200"/>
                     </div> 
-                    <figcaption class="info-wrap">
-                        <div class="fix-height">
-                            <a href="#" class="title">Babygrow car</a>
+                    <figcaption className="info-wrap">
+                        <div className="fix-height">
+                            <a href="#" className="title">Babygrow car</a>
                         </div>
-                        <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+                        <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
                 </figure>
             </div> 
 
-            <div class="col-md-4">
-                <figure class="card card-product-grid">
-                    <div class="img-wrap"> 
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+            <div className="col-md-4">
+                <figure className="card card-product-grid">
+                    <div className="img-wrap"> 
+                        <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
                         <img src="/assets/images/items/5.jpg" width="220" height="200"/>
                     </div> 
-                    <figcaption class="info-wrap">
-                        <div class="fix-height">
-                            <a href="#" class="title">Babygrow w/ bee</a>
+                    <figcaption className="info-wrap">
+                        <div className="fix-height">
+                            <a href="#" className="title">Babygrow w/ bee</a>
                         </div>
-                        <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+                        <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
                 </figure>
             </div> 
 
-            <div class="col-md-4">
-                <figure class="card card-product-grid">
-                    <div class="img-wrap"> 
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+            <div className="col-md-4">
+                <figure className="card card-product-grid">
+                    <div className="img-wrap"> 
+                        <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
                         <img src="/assets/images/items/6.jpg" width="220" height="200"/>
                     </div> 
-                    <figcaption class="info-wrap">
-                        <div class="fix-height">
-                            <a href="#" class="title">Babygrow Batman</a>
+                    <figcaption className="info-wrap">
+                        <div className="fix-height">
+                            <a href="#" className="title">Babygrow Batman</a>
                         </div>
-                        <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+                        <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
                 </figure>
             </div> 
 
-            <div class="col-md-4">
-                <figure class="card card-product-grid">
-                    <div class="img-wrap"> 
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+            <div className="col-md-4">
+                <figure className="card card-product-grid">
+                    <div className="img-wrap"> 
+                        <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
                         <img src="/assets/images/items/7.jpg" width="220" height="200"/>
                     </div> 
-                    <figcaption class="info-wrap">
-                        <div class="fix-height">
-                            <a href="#" class="title">Babygrow bear</a>
+                    <figcaption className="info-wrap">
+                        <div className="fix-height">
+                            <a href="#" className="title">Babygrow bear</a>
                         </div>
-                        <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+                        <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
                 </figure>
             </div> 
-            <div class="col-md-4">
-                <figure class="card card-product-grid">
-                    <div class="img-wrap"> 
-                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+            <div className="col-md-4">
+                <figure className="card card-product-grid">
+                    <div className="img-wrap"> 
+                        <a className="btn-overlay" href="#"><i className="fa fa-search-plus"></i> Quick view</a>
                         <img src="/assets/images/items/9.jpg" width="220" height="200"/>
                     </div> 
-                    <figcaption class="info-wrap">
-                        <div class="fix-height">
-                            <a href="#" class="title">Babygrow w/ snowman</a>
+                    <figcaption className="info-wrap">
+                        <div className="fix-height">
+                            <a href="#" className="title">Babygrow w/ snowman</a>
                         </div>
-                        <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+                        <a href="#" className="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
                 </figure>
             </div> 
         </div> 
 
 
-        <nav class="mt-4" aria-label="Page navigation sample">
-          <ul class="pagination">
-            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        <nav className="mt-4" aria-label="Page navigation sample">
+          <ul className="pagination">
+            <li className="page-item disabled"><a className="page-link" href="#">Previous</a></li>
+            <li className="page-item active"><a className="page-link" href="#">1</a></li>
+            <li className="page-item"><a className="page-link" href="#">2</a></li>
+            <li className="page-item"><a className="page-link" href="#">3</a></li>
+            <li className="page-item"><a className="page-link" href="#">Next</a></li>
           </ul>
         </nav>
 
@@ -297,9 +296,9 @@ export function NewBorn() {
         </div> 
         </section>
         
-        <footer class="section-footer border-top padding-y">
-            <div class="container">
-                <p class="float-md-right"> 
+        <footer className="section-footer border-top padding-y">
+            <div className="container">
+                <p className="float-md-right"> 
                     &copy; Copyright 2021 All rights reserved
                 </p>
                 <p>
