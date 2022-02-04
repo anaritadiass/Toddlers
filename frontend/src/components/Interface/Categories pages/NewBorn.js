@@ -1,7 +1,7 @@
 //import logo from './public/toddlersLogo.svg';
 import '../LandingPage.css';
 
-function Catalogue() {
+export function Catalogue() {
   return (
     <div className="App">
      <header class="section-header">
