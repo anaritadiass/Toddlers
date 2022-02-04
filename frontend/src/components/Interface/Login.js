@@ -1,66 +1,34 @@
 import React, {useState, useEffect} from 'react';
 //import { NameInput } from "../SingUp/NameInput";
 import './Login.css'
-
-
-
-// export const Login = ({onSubmit,Errors}) =>{
-//     // Funcao para Receber dados da DataBase em Tempo Real
-//     const [campos, setCampos] = useState(
-//         {email : "",
-//         password :""
-//     });
-//     const [errors, setErrors] = useState("");
-//     const [ListDb, setListDb] = useState([]);
-//      // User recebe token 
-//     const [token, setToken] = useState("");
-
-//     useEffect(() =>{
-//         getData()
-//       },[])
-//     function getData() {
-//         fetch('/api/signup',{method:"GET"})
-//         .then(response => response.json())
-//         .then(data => setListDb(data))
-//       }
-        
-//         useEffect(()=>{
-//             let Errors = undefined
-//             const conta = ListDb.find((e)=> e.email === campos.email && e.password === campos.password)
-            
-//             if(conta) 
-//             { 
-//                setToken(conta._id);  
-//             }else {
-//                 Errors = "Email ou Password não coincidem!"
-//             }
-//             setErrors(err =>({
-//                 error:Errors
-//             }))
-            
-//         },[campos.email,campos.password,token])
-    
-//     const handleSubmit = (e) =>{
-      
-//       e.preventDefault();
-//       const existingErrors = Object.keys(errors)
-//           .map(key => errors[key])
-//           .filter(v => v !== undefined);
-//           if (existingErrors.length === 0) {
-//         onSubmit(1)
-//           }else {
-//               onSubmit(2)
-//               Errors(existingErrors)
-//           }
-//     }
-
+import { useNavigate } from 'react-router-dom';
 export default function UserLogin(values, InfoId) {
   const [err, setErr] = useState({})
   const [email, setEmail] = useState('')
   // const [user, setUser] = useState('')
   const [pass, setPass] = useState('')
-  let navigate = useNavigate();
+ let navigate = useNavigate();
 
+  function validateEmail(email) {
+    const EMAIL_REGEX = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    return EMAIL_REGEX.test(email)
+}
+
+function checkPasswordStrength(password) {
+    if (password.length < 8) return 0;
+    const regexes = [
+        /[a-z]/,
+        /[A-Z]/,
+        /[0-9]/,
+        /[~!@#$%^&*)(+=._-]/
+    ]
+    console.log(regexes
+        .map(re => re.test(password))
+        )
+    return regexes
+    .map(re => re.test(password))
+    .reduce((score, t) => t ? score + 1 : score, 0) 
+}
   function HandleErr(values) {
       setErr( e => {
           let erros = {}

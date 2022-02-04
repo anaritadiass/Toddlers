@@ -21,7 +21,7 @@ export const Login = ({onSubmit,Errors}) =>{
         getData()
       },[])
     function getData() {
-        fetch('/api/SingUp',{method:"GET"})
+        fetch('/api/SignUp',{method:"GET"})
         .then(response => response.json())
         .then(data => setListDb(data))
       }
@@ -59,7 +59,7 @@ export const Login = ({onSubmit,Errors}) =>{
     return(
         <div className="total">
         <div className="navbar">
-        <a href="/LandingPage.js" className="img">
+        <img onClick={() => navigate(`/`)} className="img">
         <img  src="/toddlersLogo.svg"  width="300px"  alt="Toddlers logo"/>
         </a>
         </div> 
