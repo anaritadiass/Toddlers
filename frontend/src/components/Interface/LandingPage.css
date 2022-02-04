@@ -75,6 +75,11 @@ img:hover {
 .login{
   width: 100%;
   margin: top 55px;
+  color: #0450BC;
+}
+
+.login:hover{
+  color:white
 }
 
 .button-19:after {
