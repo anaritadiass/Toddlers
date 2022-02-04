@@ -1,19 +1,69 @@
 const products = [
   {
-    name: "Disney Babygrow Up!",
+    name: "Knitted Pink Dress",
     imgUrl:
-      "https://i.etsystatic.com/20415863/r/il/4205b4/3132019101/il_1140xN.3132019101_cg1o.jpg",
+      "https://th.bing.com/th/id/R.6a720c6a01a365f7a7fb662adec852dc?rik=u%2fnwK7xexf1tkg&riu=http%3a%2f%2fcdn.panachekids.co.uk%2fimages%2fproduct%2flarge%2f33134.jpg&ehk=zj4sJs5oKZse1P9WxzkEXitcLo1ywI5tGuh5RTCcvUo%3d&risl=&pid=ImgRaw&r=0",
     description:
-      "Disney Babygrow Up! for newborns upto 6 months",
-    size: "0-2 months",
+      "Knitted Pink Dress",
+    size: "1 year",
   },
   {
-    name: "New-born cardigan",
+    name: "Disney Beauty and the Beast Dress",
     imgUrl:
-      "https://www.bing.com/images/search?view=detailV2&ccid=Vn%2bLRdx6&id=31A6CFE03CF938B00D2F351B318F22BE85A55970&thid=OIF.bQYdOylM2SjHdUnmex9VUQ&mediaurl=https%3a%2f%2fi.ebayimg.com%2fimages%2fg%2fEhcAAOSwGTRg2f83%2fs-l1600.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.567f8b45dc7ac8fa5a44e1f8fcf097be%3frik%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1600&q=new-born+clothes&simid=7017339502854&FORM=IRPRST&ck=6D061D3B294CD928C77549E67B1F5551&selectedIndex=186&ajaxhist=0&ajaxserp=0",
+      "https://i.pinimg.com/originals/3e/5c/0c/3e5c0cf0ea70e6da65ade8585fcc26a3.jpg",
     description:
-      "Disney Babygrow Up! for newborns upto 6 months",
-    size: "2-4 months",
+      "Disney Beauty and the Beast Dress",
+    size: "2 years",
+  },
+  {
+    name: "Multi-colored dress with drawings",
+    imgUrl:
+      "https://www.puperita.com/wp-content/uploads/2020/12/1049-PETITE-FILLE-DRESS-sewing-pattern-Puperita-9.jpg",
+    description:
+      "Multi-colored dress with drawings",
+    size: "1 year",
+    
+  },
+  {
+    name: "Sweatshirt green with a car",
+    imgUrl:
+      "https://th.bing.com/th/id/R.b6c8601a4bd6bddf3ec541f347a214b3?rik=vOkzpZr4TOgrZA&riu=http%3a%2f%2fg01.a.alicdn.com%2fkf%2fHTB1ZScYIVXXXXXKXVXXq6xXFXXXU%2f2015-Spring-and-Autumn-baby-boys-cartoon-cool-car-pullover-sweaters-VK1796.jpg&ehk=usHKQV4sW5nOrQJbTnnK2E96PIg8yKPOehMUX5Gec1I%3d&risl=&pid=ImgRaw&r=0",
+    description:
+      "Sweatshirt green with a car",
+    size: "2 years",
+    
+  },
+  {
+    name: "Sweatshirt Hello Kitty pink and blue",
+    imgUrl:
+      "https://www.isabellababywear.com/imagens/produtos/201907221707431.jpg",
+    description:
+    "Sweatshirt Hello Kitty pink and blue",
+    size: "1 year",
+  },
+  {
+    name: "Sweatshirt pink with cat",
+    imgUrl:
+      "https://i.etsystatic.com/7784658/r/il/6b0d42/2524376753/il_794xN.2524376753_o6qb.jpg",
+    description:
+      "Sweatshirt pink with cat",
+    size: "2 years",
+  },
+  {
+    name: "Unisex baby fleece hat",
+    imgUrl:
+      "https://m.media-amazon.com/images/I/716RNSzt1rL._AC_UL1081_.jpg",
+    description:
+      "Unisex baby fleece hat",
+    size: "1 year",
+  },
+  {
+    name: "Sweatshirt baby with airplanes",
+    imgUrl:
+      "https://ae01.alicdn.com/kf/HTB1rJPzRFXXXXbLaXXXq6xXFXXXt/Autumn-Winter-Clothes-For-Baby-Boys-Kid-Car-Plane-Warm-Sweaters-0-2years-Toddler-Boy-Cardigan.jpg",
+    description:
+      "Sweatshirt baby with airplanes",
+    size: "2 years",
   },
 ];
 
