@@ -1,6 +1,10 @@
 //import logo from './logo.svg';
 // import './App.css';
 
+<<<<<<< HEAD
+
+import { Login } from './Login';
+=======
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './components/LandingPage.css'
 import LandingPage from './components/Interface/LandingPage'
@@ -9,6 +13,7 @@ import NewBorn from './components/Interface/NewBorn'
 import Child from './components/Interface/Child'
 import styles from './components/Interface/LandingPage.css'
 import { useState } from 'react'
+>>>>>>> 6efa8aaa1d16515737584a2e5b0504bb2ba7f7c6
 
 
 function App() {
@@ -16,6 +21,9 @@ function App() {
   return (
  
     <div className="App">
+<<<<<<< HEAD
+     <Login/>
+=======
    <LandingPage />
      
      <BrowserRouter>
@@ -28,6 +36,7 @@ function App() {
 
       </BrowserRouter>
       
+>>>>>>> 6efa8aaa1d16515737584a2e5b0504bb2ba7f7c6
     </div>
   );
 }
