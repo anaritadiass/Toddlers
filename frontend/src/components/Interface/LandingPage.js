@@ -1,4 +1,4 @@
-import "./LandingPage.css"
+import "./LandingPage.css";
 import { useState } from "react"
 import { useNavigate } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom"
@@ -8,6 +8,18 @@ import { useRef } from 'react';
 export default function LandingPage() {
           //let navigate = useNavigate();
      
+<<<<<<< HEAD
+    return (
+        <div>
+           
+        <h1>TODLERS</h1>
+    
+        </div>
+    
+
+
+
+=======
     return ( 
     <div>
         <div className="navbar">  
@@ -39,6 +51,7 @@ export default function LandingPage() {
      <p>&copy; 2022 Toddlers. All rights reserved.</p>
      <p>A Bytes4Future project. Developed by Ana Rita Dias, Ângela Lopes and Leonardo Dantas.</p>
    </div>
+>>>>>>> 6efa8aaa1d16515737584a2e5b0504bb2ba7f7c6
 
      </div>
      </div> </div> 
