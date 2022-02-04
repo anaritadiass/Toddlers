@@ -15,6 +15,80 @@ const products = [
         "Disney Babygrow Up! for newborns upto 6 months",
       size: "2-4 months",
     },
+    {
+      name: "Babygrow white and blue",
+      imgUrl:
+        "https://i.ebayimg.com/images/g/cg8AAOSwibph1nwh/s-l1600.jpg",
+      description:
+        "Babygrow white and blue",
+      size: "2-4 months",
+      
+    },
+    {
+      name: "Babygrow white stripes and blue",
+      imgUrl:
+        "https://img.elo7.com.br/product/zoom/21E415E/macacao-p-azul-royal-body.jpg",
+      description:
+        "Babygrow white stripes and blue",
+      size: "2-4 months",
+      
+    },
+    {
+      name: "Babygrow white and pink",
+      imgUrl:
+        "https://www.isabellababywear.com/imagens/produtos/201907221707431.jpg",
+      description:
+        "Babygrow white and pink",
+      size: "2-4 months",
+    },
+    {
+      name: "Babygrow white with cool car",
+      imgUrl:
+        "https://cdn.laleblu.com.br/wp-content/uploads/2020/04/IMG_8752.jpg",
+      description:
+        "Babygrow white with cool car",
+      size: "2-4 months",
+    },
+    {
+      name: "Babygrow grey with bee",
+      imgUrl:
+        "https://i.pinimg.com/originals/2c/2a/2b/2c2a2b421f7f68dc1cb5a034aa20a235.jpg",
+      description:
+        "Babygrow grey with bee",
+      size: "2-4 months",
+    },
+    {
+      name: "Babygrow grey with bee",
+      imgUrl:
+        "https://i.pinimg.com/originals/2c/2a/2b/2c2a2b421f7f68dc1cb5a034aa20a235.jpg",
+      description:
+        "Babygrow grey with bee",
+      size: "2-4 months",
+    },
+    {
+      name: "Babygrow Batman black, grey, and yellow",
+      imgUrl:
+        "https://img0.etsystatic.com/134/0/8406326/iss_640x640.6189906_t70n9hjz.jpg",
+      description:
+      "Babygrow Batman black, grey, and yellow",
+      size: "2-4 months",
+    },
+    {
+      name: "Babygrow grey with fluffy bear",
+      imgUrl:
+        "https://img.elo7.com.br/product/zoom/243CED3/macacao-com-aplicacao-bordada-manta-tam-p-saida-maternidade.jpg",
+      description:
+      "Babygrow grey with fluffy bear",
+      size: "2-4 months",
+    },
+    {
+      name: "Babygrow grey with snowman",
+      imgUrl:
+        "https://i.pinimg.com/originals/86/8e/a5/868ea5160590130f9299199427fde6c8.jpg",
+      description:
+        "Babygrow grey with snowman",
+      size: "2-4 months",
+    },
   ];
   
   module.exports = products;
