@@ -59,9 +59,8 @@ export const Login = ({onSubmit,Errors}) =>{
     return(
         <div className="total">
         <div className="navbar">
-        <img onClick={() => navigate(`/`)} className="img">
+        <img onClick={() => navigate(`/`)} className="img" />
         <img  src="/toddlersLogo.svg"  width="300px"  alt="Toddlers logo"/>
-        </a>
         </div> 
 
         <div className="centro">
