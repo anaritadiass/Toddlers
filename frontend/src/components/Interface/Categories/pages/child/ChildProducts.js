@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 //import './assets/css/ui.modules.css';
 //import './assets/css/all.min.css';
-import './assets/css/bootstrap.css';
-import './assets/css/responsive.css';
+import './assetsChild/css/bootstrap.css';
+import './assetsChild/css/responsive.css';
 //import './assets/css/ui.modules.css';
 
 function Child() {
@@ -189,10 +189,8 @@ function Child() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
                         <span class="badge badge-danger"> NEW </span>
-                        
-                        <img src="images/items/1" alt="Green dress for child" />
-                        <img src="assets/images/items/1.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/1.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height"> 
@@ -209,8 +207,8 @@ function Child() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap">
                         <span class="badge badge-danger"> NEW </span> 
-                        <img src="assets/images/items/2.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/2.jpg" width="220" height="200"/>
                     </div>
                     <figcaption class="info-wrap">
                         <div class="fix-height">

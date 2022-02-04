@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 //import './assets/css/all.min.css';
-import './assets/css/bootstrap.css';
-import './assets/css/responsive.css';
+import './assetsBaby/css/bootstrap.css';
+import './assetsBaby/css/responsive.css';
 //import './assets/css/ui.modules.css';
 
 function Baby() {
@@ -115,31 +115,6 @@ function Baby() {
                     <div class="card-body">
                         <label class="custom-control custom-checkbox">
                           <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">0 months  
-                              <b class="badge badge-pill badge-light float-right">120</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">1 month 
-                              <b class="badge badge-pill badge-light float-right">15</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">3 months
-                              <b class="badge badge-pill badge-light float-right">35</b> </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">6 months
-                              <b class="badge badge-pill badge-light float-right">89</b> </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">9 months 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
                           <div class="custom-control-label">1 year
                               <b class="badge badge-pill badge-light float-right">30</b>  </div>
                         </label>
@@ -151,61 +126,6 @@ function Baby() {
                         <label class="custom-control custom-checkbox">
                           <input type="checkbox" class="custom-control-input" />
                           <div class="custom-control-label">3 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">4 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">5 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">6 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">7 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">8 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">9 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">10 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">11 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">12 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">13 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">14 years 
                               <b class="badge badge-pill badge-light float-right">30</b>  </div>
                         </label>
             </div> 
@@ -222,12 +142,12 @@ function Baby() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
                         <span class="badge badge-danger"> NEW </span>
-                        <img src="assets/images/items/1.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/1.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Knitted Pink Dress</a>
+                            <a href="#" class="title">BabyGrow black and white</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>
                     </figcaption>
@@ -238,8 +158,8 @@ function Baby() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap">
                         <span class="badge badge-danger"> NEW </span> 
-                        <img src="assets/images/items/2.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/2.jpg" width="220" height="200"/>
                     </div>
                     <figcaption class="info-wrap">
                         <div class="fix-height">
@@ -254,8 +174,8 @@ function Baby() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap">
                         <span class="badge badge-danger"> NEW </span>  
-                        <img src="assets/images/items/3.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/3.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
@@ -270,8 +190,8 @@ function Baby() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap">
                         <span class="badge badge-danger"> NEW </span>   
-                        <img src="assets/images/items/4.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/4.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
@@ -285,8 +205,8 @@ function Baby() {
             <div class="col-md-4">
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
-                        <img src="assets/images/items/5.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/5.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
@@ -300,8 +220,8 @@ function Baby() {
             <div class="col-md-4">
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
-                        <img src="assets/images/items/6.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/6.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
@@ -315,8 +235,8 @@ function Baby() {
             <div class="col-md-4">
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
-                        <img src="assets/images/items/7.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/7.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
@@ -329,8 +249,8 @@ function Baby() {
             <div class="col-md-4">
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
-                        <img src="assets/images/items/1.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/9.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">

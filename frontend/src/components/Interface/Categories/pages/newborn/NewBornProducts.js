@@ -1,8 +1,8 @@
 //import logo from './public/toddlersLogo.svg';
 //import './assets/ui.module.css';
 //import './assets/css/all.min.css';
-import './assets/css/bootstrap.css';
-import './assets/css/responsive.css';
+import './assetsNewBorn/css/bootstrap.css';
+import './assetsNewBorn/css/responsive.css';
 //import './assets/css/ui.modules.css';
 import { useNavigate } from 'react-router-dom';
 
@@ -145,71 +145,6 @@ export function NewBorn() {
                           <div class="custom-control-label">1 year
                               <b class="badge badge-pill badge-light float-right">30</b>  </div>
                         </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">2 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">3 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">4 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">5 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">6 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">7 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">8 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">9 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">10 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">11 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">12 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">13 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">14 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
             </div> 
                 </div>
             </article>  
@@ -224,12 +159,12 @@ export function NewBorn() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
                         <span class="badge badge-danger"> NEW </span>
-                        <img src="assets/images/items/1.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/1.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow white and blue</a>
+                            <a href="#" class="title">Babygrow stripes</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>
                     </figcaption>
@@ -240,12 +175,12 @@ export function NewBorn() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap">
                         <span class="badge badge-danger"> NEW </span> 
-                        <img src="assets/images/items/2.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/2.jpg" width="220" height="200"/>
                     </div>
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow white stripes and blue</a>
+                            <a href="#" class="title">Babygrow blue</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -256,12 +191,12 @@ export function NewBorn() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap">
                         <span class="badge badge-danger"> NEW </span>  
-                        <img src="assets/images/items/3.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/3.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow white and pink</a>
+                            <a href="#" class="title">Babygrow pink</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -272,12 +207,12 @@ export function NewBorn() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap">
                         <span class="badge badge-danger"> NEW </span>   
-                        <img src="assets/images/items/4.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/4.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow white with cool car</a>
+                            <a href="#" class="title">Babygrow car</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -287,12 +222,12 @@ export function NewBorn() {
             <div class="col-md-4">
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
-                        <img src="assets/images/items/5.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/5.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow grey with bee</a>
+                            <a href="#" class="title">Babygrow w/ bee</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -302,12 +237,12 @@ export function NewBorn() {
             <div class="col-md-4">
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
-                        <img src="assets/images/items/6.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/6.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow Batman black, grey, and yellow</a>
+                            <a href="#" class="title">Babygrow Batman</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -317,12 +252,12 @@ export function NewBorn() {
             <div class="col-md-4">
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
-                        <img src="assets/images/items/7.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/7.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow grey with fluffy bear</a>
+                            <a href="#" class="title">Babygrow bear</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
@@ -331,12 +266,12 @@ export function NewBorn() {
             <div class="col-md-4">
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
-                        <img src="assets/images/items/1.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                        <img src="/assets/images/items/9.jpg" width="220" height="200"/>
                     </div> 
                     <figcaption class="info-wrap">
                         <div class="fix-height">
-                            <a href="#" class="title">Babygrow grey with snowman</a>
+                            <a href="#" class="title">Babygrow w/ snowman</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>	
                     </figcaption>
