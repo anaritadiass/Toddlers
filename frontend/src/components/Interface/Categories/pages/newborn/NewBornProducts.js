@@ -4,6 +4,7 @@
 import './assets/css/bootstrap.css';
 import './assets/css/responsive.css';
 //import './assets/css/ui.modules.css';
+//import './Interface/'
 import { useNavigate } from 'react-router-dom';
 
 export function NewBorn() {
@@ -14,11 +15,9 @@ export function NewBorn() {
         <section class="header-main border-bottom">
             <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-2 col-4">
-                <a href="#" class="brand-wrap">
+           
                 <img width="140px" src="/toddlersLogo.svg" />
-                </a> 
-            </div>
+           
             <div class="col-lg-6 col-sm-12">
                 <form action="#" class="search">
                     <div class="input-group w-100">
@@ -40,7 +39,7 @@ export function NewBorn() {
                     <div class="widget-header icontext">
                         <a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-user"></i></a>
                         <div class="text">
-                            <span class="text-muted">Welcome!</span>
+                            <span class="text-muted">Welcome, Leonardo!</span>
                             <div> 
                                 <a href="#">Sign in</a> |  
                                 <a href="#" onClick={() => navigate(`/SignUp`)}> Register</a>
@@ -63,8 +62,8 @@ export function NewBorn() {
             <h2 class="title-page">Category products</h2>
             <nav>
             <ol class="breadcrumb text-white">
-                <li class="breadcrumb-item"><a href="#">Landing Page</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Recently added</li>
+                <li class="breadcrumb-item"><a href="#" onClick={() => navigate(`/`)}>Landing Page</a></li>
+                <li class="breadcrumb-item active" aria-current="page">New Born</li>
             </ol>  
             </nav>
         </div> 
@@ -128,89 +127,24 @@ export function NewBorn() {
                         <label class="custom-control custom-checkbox">
                           <input type="checkbox" class="custom-control-input" />
                           <div class="custom-control-label">3 months
-                              <b class="badge badge-pill badge-light float-right">35</b> </div>
+                              <b class="badge badge-pill badge-light float-right">2</b> </div>
                         </label>
                         <label class="custom-control custom-checkbox">
                           <input type="checkbox" class="custom-control-input" />
                           <div class="custom-control-label">6 months
-                              <b class="badge badge-pill badge-light float-right">89</b> </div>
+                              <b class="badge badge-pill badge-light float-right">2</b> </div>
                         </label>
                         <label class="custom-control custom-checkbox">
                           <input type="checkbox" class="custom-control-input" />
                           <div class="custom-control-label">9 months 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
+                              <b class="badge badge-pill badge-light float-right">1</b>  </div>
                         </label>
                         <label class="custom-control custom-checkbox">
                           <input type="checkbox" class="custom-control-input" />
                           <div class="custom-control-label">1 year
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
+                              <b class="badge badge-pill badge-light float-right">0</b>  </div>
                         </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">2 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">3 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">4 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">5 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">6 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">7 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">8 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">9 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">10 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">11 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">12 years
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">13 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-                        <label class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" />
-                          <div class="custom-control-label">14 years 
-                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
-                        </label>
-            </div> 
+                        </div> 
                 </div>
             </article>  
         </div> 
