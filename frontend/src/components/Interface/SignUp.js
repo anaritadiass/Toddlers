@@ -77,7 +77,7 @@ function validateEmail(email) {
         <div className="total">
             <div className="navbar">
                 <a href="/LandingPage.js" className="img">
-                    <img src="/toddlersLogo.svg" width="300px" alt="Toddlers logo" />
+                    <img  src="/toddLaranja.svg" width="300px" alt="Toddlers logo" />
                 </a>
             </div>
 
@@ -106,7 +106,7 @@ function validateEmail(email) {
             } 
         }}>
                     <div className="Name">
-                        <label className="SName">Email</label>
+                        <label className="SName">Name</label>
                         <input
                             className="nomeInput"
                             label="Please introduce your name"
@@ -157,7 +157,7 @@ function validateEmail(email) {
                         />
                     </div>
                     <div className="address">
-                        <label className="SAddress">Toodlers Code</label>
+                        <label className="SAddress">Address</label>
                         <input //AQUI TEM DE SER NAMEINPUT ???
                             type="address"
                             className="addressInput"
@@ -172,21 +172,14 @@ function validateEmail(email) {
 
             </div>
             <div>
-                <div className="footer">
+                
                     <div className="fim">
-                        <div className="footerlogo"></div>
-                        <h2 className="legal">Legal</h2>
-                        <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li>About Us</li>
-                        </ul>
-                        <div className="footerbtn">
+                                          <div className="footerbtn">
                             <a href="mailto:toodlers@toodlers.com">Contact Us</a>
                         </div>
                         <p>&copy; 2022 Toddlers. All rights reserved.</p>
                         <p>A Bytes4Future project. Developed by Ana Rita Dias, Ângela Lopes and Leonardo Dantas.</p>
-                    </div>
+                 
                 </div>
             </div>
         </div>

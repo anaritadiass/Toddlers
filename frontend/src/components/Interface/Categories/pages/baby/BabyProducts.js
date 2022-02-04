@@ -15,7 +15,7 @@ function Baby() {
             <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-2 col-4">
-            <img width="140px" src="/toddlersLogo.svg" />
+            <img width="100px" src="/toddLaranja.svg" />
             </div>
             <div class="col-lg-6 col-sm-12">
                 <form action="#" class="search">

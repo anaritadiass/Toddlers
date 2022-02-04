@@ -16,7 +16,7 @@ export function NewBorn() {
             <div class="container">
         <div class="row align-items-center">
            
-                <img width="140px" src="/toddlersLogo.svg" />
+                <img width="140px" src="/toddLaranja.svg" />
            
             <div class="col-lg-6 col-sm-12">
                 <form action="#" class="search">

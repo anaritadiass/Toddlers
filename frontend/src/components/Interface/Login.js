@@ -64,7 +64,8 @@ function checkPasswordStrength(password) {
         <div className="total">
         <div className="navbar">
         <a href="/LandingPage.js" className="img">
-        <img  src="/toddlersLogo.svg"  width="300px"  alt="Toddlers logo"/>
+        <img  
+         src="/toddLaranja.svg"  width="300px"  alt="Toddlers logo"/>
         </a>
         </div> 
 
@@ -114,7 +115,7 @@ function checkPasswordStrength(password) {
         <p className="forgotPass"><a href="Forgot my password">Forgot my password</a></p>
        </div>
             <div className="btn">
-           <button className="button-19" type="submit">Submit</button>
+           <button className="button-19" type="submit" onClick={() => navigate(`/Products/NewBorn`)}>Submit</button>
            </div>
         </form>
       </div>

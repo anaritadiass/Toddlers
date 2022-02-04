@@ -11,9 +11,10 @@ export default function LandingPage() {
   return (
     <div>
 
-      <div className="navbar">
+      
         <div className="body1">
-        <img width="100%" className="navbar" src="/toddLaranja.svg" />
+          <div>
+        <img width="80%" className="navbar" src="./toddLaranja.svg" />
         <div />
 
         <div className="buttons">

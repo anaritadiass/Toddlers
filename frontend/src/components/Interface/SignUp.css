@@ -1,309 +1,303 @@
 body{
-    background-color: white;
-    width: 100%;
-    min-height: 100vh;
+  background-color: white;
+  width: 100%;
+  min-height: 100vh;
 }
 .total{
-    position: relative;
-    background-color: white;
+  position: relative;
+  background-color: white;
 }
-.navbar {
-  width: 100%;
-  height: 110px;
-  background-color: #f59d45;;
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-  padding: 1.5rem 1rem;
-  z-index: 50;
-  position: top;
-  text-align: center;
-  left: 100px;
-  right:100px;
-  margin: 0;
-}
+/* .navbar {
+width: 100%;
+height: 110px;
+background-color: #f59d45;;
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 1.5rem 1rem;
+z-index: 50;
+position: top;
+text-align: center;
+margin-left: 100px;
+right: 100px;
+margin: 0;
+} */
 /* .teste{
-    background-image: url("../public/toddlersLogo.svg");
+  background-image: url("../public/toddlersLogo.svg");
 } */
 .img{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:auto;
-    margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  margin-bottom: auto;
 }
 .centro{
-    background-color: white;
-    width:100%;
-    height: 700px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+  background-color: white;
+  width:100%;
+  height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 
 .title{
-    font-size: 27px;
-    text-align: center;
-    color:  #f59d45;
-    position: relative;
-    margin-top: 25px;
+  font-size: 27px;
+  text-align: center;
+  color:  #f59d45;
+  position: relative;
+  margin-top: 25px;
 }
 
 
 .Name{
-    width:450px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top: 50px;
+  width:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 40px;
 }
 .nomeInput{
-    width:450px;
-    height: 32px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top:2px;
-    background-color: white;
-    display: block;
-    border-radius: 50px;
+  width:450px;
+  height: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top:2px;
+  background-color: white;
+  display: block;
+  border-radius: 50px;
 }
 .SName{
-    position: relative;
-    margin-left:15px;
-  }
-  
+  position: relative;
+  margin-left:15px;
+}
+
 .Email{
-    width:450px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top: 50px;
+  width:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 25px;
 }
 .emailInput{
-    width:450px;
-    height: 32px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top:2px;
-    background-color: white;
-    display: block;
-    border-radius: 50px;
+  width:450px;
+  height: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top:2px;
+  background-color: white;
+  display: block;
+  border-radius: 50px;
 }
 .SEmail{
-    position: relative;
-    margin-left:15px;
-  }
-  .Pass{
-    width:450px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top: 30px;
+  position: relative;
+  margin-left:15px;
+}
+.Pass{
+  width:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 25px;
 }
 .passInput{
-    width:450px;
-    height: 32px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top:2px;
-    background-color: white;
-    display: block;
-    border-radius: 50px;
+  width:450px;
+  height: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top:2px;
+  background-color: white;
+  display: block;
+  border-radius: 50px;
 }
 .SPass{
-    position: relative;
-    margin-left:15px;
-  }
-  .ConfirmPass{
-    width:450px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top: 30px;
+  position: relative;
+  margin-left:15px;
+}
+.ConfirmPass{
+  width:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 30px;
 }
 .Code{
-    width:450px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top: 30px;
+  width:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 25px;
 }
 .codeInput{
-    width:450px;
-    height: 32px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top:2px;
-    background-color: white;
-    display: block;
-    border-radius: 50px;
+  width:450px;
+  height: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top:2px;
+  background-color: white;
+  display: block;
+  border-radius: 50px;
 }
 .SCode{
-    position: relative;
-    margin-left:15px;
-  }
-  .address{
-    width:450px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top: 30px;
+  position: relative;
+  margin-left:15px;
+}
+.address{
+  width:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 25px;
 }
 .addressInput{
-    width:450px;
-    height: 32px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top:2px;
-    background-color: white;
-    display: block;
-    border-radius: 50px;
+  width:450px;
+  height: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top:2px;
+  background-color: white;
+  display: block;
+  border-radius: 50px;
 }
 .SAddress{
-    position: relative;
-    margin-left:15px;
-  }
+  position: relative;
+  margin-left:15px;
+}
 
 
+    .btn{
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      margin-top: 70px;
+    }
+    .button-19{
+      appearance: button;
+      background-color:#0450BC;
+      border: solid transparent;
+      border-radius: 16px;
+      border-width: 0 0 4px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: din-round,sans-serif;
+      font-size: 15px bold;
+      letter-spacing: .8px;
+      line-height: 2px;
+      outline: none;
+      overflow: visible;
+      padding: 13px 16px;
+      text-align: center;
+      text-transform: uppercase;
+      touch-action: manipulation;
+      transform: translateZ(0);
+      transition: filter .2s;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+      width: 450px;
+    }
+    .button-19:after {
+      background-clip: padding-box;
+      background-color: #0450BC;
+      border: solid transparent;
+      border-radius: 16px;
+      border-width: 0 0 4px;
+      bottom: -4px;
+      content: "";
+      z-index: -1;
+    }
+    .button-19:main,
+    .button-19:focus {
+      user-select: auto;
+    }
+    .button-19:hover:not(:disabled) {
+      filter: brightness(1.1);
+    }
+    .button-19:disabled {
+      cursor: auto;
+    }
 
-
-
-
-      .btn{
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        margin-top: 70px;
-      }
-      .button-19{
-        appearance: button;
-        background-color:#0450BC;
-        border: solid transparent;
-        border-radius: 16px;
-        border-width: 0 0 4px;
-        box-sizing: border-box;
-        color: #FFFFFF;
-        cursor: pointer;
-        display: inline-block;
-        font-family: din-round,sans-serif;
-        font-size: 15px bold;
-        letter-spacing: .8px;
-        line-height: 2px;
-        outline: none;
-        overflow: visible;
-        padding: 13px 16px;
-        text-align: center;
-        text-transform: uppercase;
-        touch-action: manipulation;
-        transform: translateZ(0);
-        transition: filter .2s;
-        user-select: none;
-        -webkit-user-select: none;
-        vertical-align: middle;
-        white-space: nowrap;
-        width: 450px;
-      }
-      .button-19:after {
-        background-clip: padding-box;
-        background-color: #0450BC;
-        border: solid transparent;
-        border-radius: 16px;
-        border-width: 0 0 4px;
-        bottom: -4px;
-        content: "";
-        z-index: -1;
-      }
-      .button-19:main,
-      .button-19:focus {
-        user-select: auto;
-      }
-      .button-19:hover:not(:disabled) {
-        filter: brightness(1.1);
-      }
-      .button-19:disabled {
-        cursor: auto;
-      }
-
-      .footer {
-        font-family: acumin-pro, system-ui, sans-serif;
-        margin-bottom: 0px;
-        position:absolute;
-        display: flex;
-        flex-flow: row wrap;
-        padding: 10px 10px 10px 10px;
-        color: #2f2f2f;
-        background-color: #88AADA;
-        border-top: 1px solid #e5e5e5;
-        width: 100%;
-        height: 100px;
-      }
-      .footer > * {
-        flex:  100%;
-      }
-      .footerlogo {
-        background-image: src("./public/toddlersLogo.svg");
-        background-repeat: no-repeat;
-        height: 20px;
-      }
-      .footer address {
-        font-style: normal;
-        color: rgb(25, 146, 21);
-      }
-      .footer ul {
-        list-style: none;
-        padding-left: 0;
-      }
-      .footer li {
-        line-height: 2em;
-      }
-      .footer a {
-        text-decoration: none;
-        height:200px;
-      }
-      .footer a:hover {
-        text-decoration: underline;
-      }
-      .footerbtn {
-        position: absolute;
-        align-items: center;
-        justify-content: center;
-        height: 20px;
-        background-color: #f4f4f4;
-        border-radius: 100px;
-        color: #2f2f2f;
-        bottom: 0px;
-        margin: 0.6em 0;
-        font-size: 1rem;
-        padding: 0 1.3em;
-      }
-      .footerbtn:hover {
-        background-color: #F59D45;
-        color: #f4f4f4;
-        width: 10%;
-      }
-      .fim {
-        display: flex;
-        flex-wrap: wrap;
-        color: rgb(255, 255, 255);
-        font-size: 10px;
-        display: flex;
-        justify-content: space-between;
-      }
+    .footer {
+      font-family: acumin-pro, system-ui, sans-serif;
+      margin-bottom: 0px;
+      bottom: 0px;
+      position:absolute;
+      display: flex;
+      flex-flow: row wrap;
+      padding: 10px 10px 10px 10px;
+      color: #2f2f2f;
+      background-color: #88AADA;
+      border-top: 1px solid #e5e5e5;
+      width: 100%;
+      height: 100px;
+    }
+    .footer > * {
+      flex:  100%;
+    }
+    .footerlogo {
+      background-image: src("./public/toddlersLogo.svg");
+      background-repeat: no-repeat;
+      height: 20px;
+    }
+    
+    .footer ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .footer li {
+      line-height: 2em;
+    }
+    .footer a {
+      text-decoration: none;
+      height:200px;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footerbtn {
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+      height: 20px;
+      background-color: #f4f4f4;
+      border-radius: 100px;
+      color: #2f2f2f;
+      bottom: 0px;
+      margin: 0.6em 0;
+      font-size: 1rem;
+      padding: 0 1.3em;
+    }
+    .footerbtn:hover {
+      background-color: #F59D45;
+      color: #f4f4f4;
+      width: 10%;
+    }
+    .fim {
+      display: flex;
+      flex-wrap: wrap;
+      color: rgb(255, 255, 255);
+      font-size: 10px;
+      display: flex;
+      justify-content: space-between;
+    }

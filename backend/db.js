@@ -17,9 +17,9 @@ async function connectToMongo() {
     }
 }
 
-async function getMongoCollection(dbName, collectionName) {
+async function getMongoCollection(collectionName) {
     const client = await connectToMongo()
-    return client.db(dbName).collection(collectionName)
+    return client.db(DATABASE_NAME).collection(collectionName)
 }
 
 async function insertUser(user) {
@@ -47,4 +47,4 @@ async function findSessionByToken(token) {
     return session
 }
 
-module.exports = { connectToMongo, insertUser, findUserByEmail, insertSession, findSessionByToken }
+module.exports = { connectToMongo, getMongoCollection , insertUser, findUserByEmail, insertSession, findSessionByToken }
