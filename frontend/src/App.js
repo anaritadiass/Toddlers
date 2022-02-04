@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './components/Interface/LandingPage'
 import LandingPage from './components/Interface/LandingPage'
 import Baby from './components/Interface/Baby'
-import NewBorn from './components/Interface/Categories pages/NewBorn'
+import NewBorn from './components/Interface/Categories pages newborn/NewBorn'
 import Child from './components/Interface/Child'
 import { useState } from 'react'
 
