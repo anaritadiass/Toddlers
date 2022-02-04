@@ -1,17 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './public/toddlersLogo.svg';
+import '../LandingPage.css';
 
-function App() {
+export function Catalogue() {
   return (
     <div className="App">
      <header class="section-header">
-
         <section class="header-main border-bottom">
             <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-2 col-4">
                 <a href="#" class="brand-wrap">
-                  Company Name
+                <img width="140px" src="/toddlersLogo.svg" />
                 </a> 
             </div>
             <div class="col-lg-6 col-sm-12">
@@ -373,4 +372,4 @@ function App() {
   );
 }
 
-export default App;
+export default function NewBorn(){};
