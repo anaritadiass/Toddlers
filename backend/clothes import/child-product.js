@@ -1,19 +1,67 @@
 const products = [
   {
-    name: "Disney Babygrow Up!",
+    name: "Green floral dress",
     imgUrl:
-      "https://i.etsystatic.com/20415863/r/il/4205b4/3132019101/il_1140xN.3132019101_cg1o.jpg",
+      "https://i.etsystatic.com/14381079/r/il/ee67e5/1144198360/il_750xN.1144198360_f3lx.jpg",
     description:
-      "Disney Babygrow Up! for newborns upto 6 months",
-    size: "0-2 months",
+      "Green Floral Dress",
+    size: "4 years",
   },
   {
-    name: "New-born cardigan",
+    name: "Red dress with students",
     imgUrl:
-      "https://www.bing.com/images/search?view=detailV2&ccid=Vn%2bLRdx6&id=31A6CFE03CF938B00D2F351B318F22BE85A55970&thid=OIF.bQYdOylM2SjHdUnmex9VUQ&mediaurl=https%3a%2f%2fi.ebayimg.com%2fimages%2fg%2fEhcAAOSwGTRg2f83%2fs-l1600.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.567f8b45dc7ac8fa5a44e1f8fcf097be%3frik%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1600&q=new-born+clothes&simid=7017339502854&FORM=IRPRST&ck=6D061D3B294CD928C77549E67B1F5551&selectedIndex=186&ajaxhist=0&ajaxserp=0",
+      "https://ae01.alicdn.com/kf/HTB1H_mnayFTMKJjSZFAq6AkJpXak/COMFY-KIDS-Clothes-Hot-Selling-Children-Clothing-Toddler-Kids-Baby-Girls-Winter-Long-Sleeve-Embroidery-Princess.jpg",
     description:
-      "Disney Babygrow Up! for newborns upto 6 months",
-    size: "2-4 months",
+      "Red dress with students",
+    size: "3 years",
+  },
+  {
+    name: "Sweatshirt dark blue with Koala",
+    imgUrl:
+      "https://cdn.shopify.com/s/files/1/1887/4827/products/wild-republic-kids-hoody-koala-navy-outlet-shop-for-kids_1600x.jpg?v=1621468730",
+    description:
+      "Sweatshirt dark blue with Koala",
+    size: "8 years",
+  },
+  {
+    name: "Hoodie navy blue",
+    imgUrl:
+      "https://i.pinimg.com/originals/73/91/48/7391485941bfc25e564b479866855c51.jpg",
+    description:
+      "Hoodie navy blue",
+    size: "10 years",
+  },
+  {
+    name: "Hoodie Silly The Monkey",
+    imgUrl:
+      "https://th.bing.com/th/id/R.66b76c0b5e7e58bbf9c308827cb1665d?rik=CPgaTdMbzST1PQ&riu=http%3a%2f%2fgymbohaven.com%2fkingofthejungle09%2f140049422.jpg&ehk=JaITPJBQtJMQIeCuMv0XSQvUrluE9KRoVrPmAzSJZyA%3d&risl=&pid=ImgRaw&r=0",
+    description:
+      "Hoodie Silly The Monkey",
+    size: "12 years",
+  },
+  {
+    name: "Dress green with fancy buttons",
+    imgUrl:
+      "https://m.media-amazon.com/images/I/81ZsKSBdO1L._AC_UL1500_.jpg",
+    description:
+      "Dress green with fancy buttons",
+    size: "7 years",
+  },
+  {
+    name: "Dress one-shoulder flower pink",
+    imgUrl:
+      "https://cdn.shopify.com/s/files/1/0935/0226/products/JQ11-1_1024x1024.jpg?v=1570667854",
+    description:
+      "Dress one-shoulder flower pink",
+    size: "8 years",
+  },
+  {
+    name: "Fancy pants with tropical trees",
+    imgUrl:
+      "https://cdn.shopify.com/s/files/1/1887/4827/products/wild-republic-kids-hoody-koala-navy-outlet-shop-for-kids_1600x.jpg?v=1621468730",
+    description:
+      "Fancy pants with tropical trees",
+    size: "9 years",
   },
 ];
 
