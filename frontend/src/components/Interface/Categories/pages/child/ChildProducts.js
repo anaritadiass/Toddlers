@@ -111,7 +111,17 @@ function Child() {
                 </header>
                 <div class="filter-content collapse show" id="collapse_2">
                     <div class="card-body">
+<<<<<<< HEAD
                           <label class="custom-control custom-checkbox">
+=======
+                        <label class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" />
+                          
+                          <div class="custom-control-label">3 years
+                              <b class="badge badge-pill badge-light float-right">30</b>  </div>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+>>>>>>> 1c707aa87391fa7043110a0636c873de7dd96296
                           <input type="checkbox" class="custom-control-input" />
                           <div class="custom-control-label">4 years
                               <b class="badge badge-pill badge-light float-right">30</b>  </div>
@@ -180,12 +190,20 @@ function Child() {
                 <figure class="card card-product-grid">
                     <div class="img-wrap"> 
                         <span class="badge badge-danger"> NEW </span>
+                        
+                        <img src="images/items/1" alt="Green dress for child" />
                         <img src="assets/images/items/1.jpg" />
                         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
                     </div> 
                     <figcaption class="info-wrap">
+<<<<<<< HEAD
                         <div class="fix-height">
 
+=======
+                        <div class="fix-height"> 
+                         <img src="./images/items/2.jpg" />
+                          
+>>>>>>> 1c707aa87391fa7043110a0636c873de7dd96296
                             <a href="#" class="title">Green Floral Dress</a>
                         </div>
                         <a href="#" class="btn btn-block btn-primary">Add to cart </a>
