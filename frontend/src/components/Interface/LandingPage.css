@@ -16,7 +16,7 @@ img:hover {
 .navbar {
   width: 100%;
   height: 110px;
-  background-color:#fe7f30;
+  background: color #f59d45;;
   display: flex;
   justify-content:space-between;
   align-items: center;
