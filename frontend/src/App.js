@@ -20,9 +20,9 @@ import SignUp from './components/Interface/SignUp'
 function App() {
   return (
     <div className="App">
+    <BrowserRouter>
      <Login/>
    <LandingPage />     
-    <BrowserRouter>
         <Routes>
           <Route path="/" element={ <LandingPage/>} />
           <Route path="/Products/NewBorn" element={ <NewBorn/> } />
